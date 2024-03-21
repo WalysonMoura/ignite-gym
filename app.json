@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ignite-gym",
-    "slug": "ignite-gym",
+    "name": "ignite-gym-app",
+    "slug": "ignite-gym-app",
     "version": "1.0.0",
 
     "web": {
