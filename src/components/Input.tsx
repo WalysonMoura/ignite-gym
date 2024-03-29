@@ -19,7 +19,6 @@ export function Input({ errorMessage = null, isInvalid, ...rest }: Props) {
         color="white"
         fontFamily="body"
         isInvalid={invalid}
-        
         placeholderTextColor=""
         {...rest}>
         <InputField placeholder="Enter Text here" />
