@@ -25,17 +25,17 @@ export function Home() {
   }
   return (
     <VStack flex={1}>
-     {/*  <HomeHeader /> */}
+      {/*  <HomeHeader /> */}
       <VStack px={8}>
         <HStack justifyContent="space-between" mb={5}>
-          <Heading color="gray.200" fontSize="md" fontFamily="heading">
+          <Heading color="$gray200" fontSize="$md" fontFamily="$heading">
             Exercícios
           </Heading>
-          <Text color="gray.200" fontSize="sm">
+          <Text color="$gray200" fontSize="$sm">
             {exercises.length}
           </Text>
         </HStack>
-       {/*  <FlatList
+        {/*  <FlatList
           data={exercises}
           keyExtractor={(item: any) => item}
           renderItem={({}) => <ExerciseCard onPress={handleOpenExerciseDetails} />}
